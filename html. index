@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover businesses, services, jobs and local offers across Kenya with Anika Soko.">
+  <title>ANIKA SOKO | Find it. Buy it. Grow it.</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #202b36;
+      background: #f5f7fa;
+    }
+    header {
+      background: #123b32;
+      color: white;
+      padding: 22px 6%;
+    }
+    .brand { font-size: 27px; font-weight: bold; }
+    .tagline { margin-top: 6px; color: #d7eee5; }
+    nav { margin-top: 18px; display: flex; gap: 18px; flex-wrap: wrap; }
+    nav a { color: white; text-decoration: none; }
+    .hero {
+      padding: 48px 6%;
+      background: #e1f1e9;
+    }
+    .hero h1 { font-size: clamp(30px, 6vw, 48px); margin: 0 0 14px; }
+    .hero p { line-height: 1.6; max-width: 600px; }
+    .search {
+      display: flex; flex-wrap: wrap; gap: 10px;
+      margin-top: 24px; max-width: 650px;
+    }
+    input, select, button {
+      padding: 13px; border-radius: 7px; font-size: 16px;
+    }
+    input, select { border: 1px solid #cbd5d1; background: white; }
+    .search input { flex: 1; min-width: 180px; }
+    button {
+      border: 0; background: #e6a52e; color: #172b23;
+      font-weight: bold; cursor: pointer;
+    }
+    .section { padding: 32px 6%; }
+    .section h2 { margin-top: 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+      gap: 15px;
+    }
+    .card {
+      background: white; padding: 20px; border-radius: 12px;
+      border: 1px solid #e1e7e3;
+    }
+    .card h3 { margin: 10px 0; }
+    .card p { line-height: 1.5; color: #53635b; }
+    .icon { font-size: 29px; }
+    .post {
+      margin: 0 6% 35px; padding: 25px;
+      background: white; border-radius: 12px;
+    }
+    .post a { color: #176b50; font-weight: bold; }
+    footer {
+      background: #123b32; color: white; padding: 25px 6%;
+      line-height: 1.8;
+    }
+    footer a { color: #d7eee5; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">ANIKA SOKO</div>
+    <div class="tagline">Find it. Buy it. Grow it.</div>
+    <nav>
+      <a href="#categories">Categories</a>
+      <a href="#how">How it works</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Your marketplace. Your opportunity.</h1>
+      <p>
+        Discover businesses, services, jobs and local offers
+        from across Kenya. Find what you need and help businesses grow.
+      </p>
+      <form class="search" action="#categories" method="get">
+        <input type="search" name="q" placeholder="What are you looking for?">
+        <button type="submit">Explore Soko</button>
+      </form>
+    </section>
+
+    <section class="section" id="categories">
+      <h2>Explore the marketplace</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="icon">🛍️</div>
+          <h3>Products</h3>
+          <p>Discover products offered by local sellers.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🧰</div>
+          <h3>Services</h3>
+          <p>Find skilled professionals and service providers.</p>
+        </article>
+        <article class="card">
+          <div class="icon">💼</div>
+          <h3>Jobs</h3>
+          <p>Explore local work and opportunities.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🏠</div>
+          <h3>Property</h3>
+          <p>Browse property and accommodation listings.</p>
+        </article>
+        <article class="card">
+          <div class="icon">📣</div>
+          <h3>Business Ads</h3>
+          <p>Help customers discover your business.</p>
+        </article>
+        <article class="card">
+          <div class="icon">🎉</div>
+          <h3>Events</h3>
+          <p>Discover events and community activities.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="post" id="how">
+      <h2>Grow your business with Anika Soko</h2>
+      <p>Reach more people by advertising your products or services.</p>
+      <p><strong>Coming next:</strong> listing submissions, seller contacts,
+      location filters and advertising options.</p>
+      <a href="#contact">Learn more</a>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <strong>ANIKA SOKO</strong><br>
+    Find it. Buy it. Grow it.<br>
+    A marketplace concept for Kenya.<br>
+    Contact details will be added as the platform develops.
+  </footer>
+</body>
+</html>
